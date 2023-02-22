@@ -1,0 +1,10 @@
+@import '../../../Assets/Scss/Mixins/mixin.scss';
+.boxAcceptanceTest{
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(54, 59, 59);
+}
+
+.cards-box{
+    @include flex-between();
+}

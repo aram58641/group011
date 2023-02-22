@@ -1,0 +1,7 @@
+@import "../../../Assets/Scss/Mixins/mixin.scss";
+
+.boxBecome {
+    width: 100%;
+    height: 400px;
+    @include background-image("https://www.pcclean.io/wp-content/uploads/2020/4/mIb6Br.jpg",);
+}
