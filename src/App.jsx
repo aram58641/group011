@@ -21,7 +21,7 @@ function App() {
                 <Route path="/red" element={<TestRed />} />
                 <Route path="/registration" element={<Registration />} />
                 
-                {/* git avelacav */}
+                {/* git avel */}
 
                 <Route path="*" element={<Error />} />
             </Routes>
